@@ -1,0 +1,30 @@
+{
+    "AS_Label_f637b790c3464bfeb69aa96fbad4a7b9": {
+        "id": "AS_Label_f637b790c3464bfeb69aa96fbad4a7b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hfc0fdb32539455f8408ea3ed7ed3726"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g9eb3a88010f4ca59fb46b0e040b6255",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function example4() { \nkony.application.getCurrentForm().Image0.rawBytes=\n  kony.application.getCurrentForm().Camera.rawBytes;\n}\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
